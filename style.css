@@ -1,6 +1,7 @@
 /* import font  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 /* common style  */
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -97,10 +98,12 @@ p{
     font-size: small;
   
 } 
+ /* down-container style  */
 .down-left{
     margin-top: 6%;
     margin-left: 245px;
 }
+/* h1 style  */
 .highlights{
  
     font-size: 48px;
@@ -109,6 +112,7 @@ p{
     height: 120px;
     margin-top: -30px;
 }
+/* watch link style  */
 .live-2{
    
     width: 173px;
@@ -123,5 +127,89 @@ p{
 }
 .down-container{
     display: flex;
+
+}
+/* new-container style */
+.new-container{
+    display: flex;
+    margin-bottom: 200px;
+
+}
+.new-section-left{
+    margin-top: 6%;
+    margin-left: 250px;
+}
+.new-section-right{
+    margin-top: 13%;
+    margin-left: 120px;
+}
+/* footer style  */
+.footer-part{
+    width: 484px;
+    height: 213px;
+   
+    margin-left: 33%;
+}
+/* logo style  */
+.logo{
+    margin-bottom: 30px;
+}
+
+.logo-size{
+    display: grid;
+    grid-template-columns:repeat(4,50px) ;
+    margin-left: 25%;
+
+    
+}
+
+#logo-1
+{
+   width: 32px;
+   height: 32px;
+    border:1px solid rgba(155, 152, 152, 0.054);
+    background-color: rgba(177, 173, 173, 0.36);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo-2
+{
+   width: 32px;
+   height: 32px;
+   border:1px solid rgba(155, 152, 152, 0.054);
+   background-color: rgba(177, 173, 173, 0.36);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo-3
+{
+   width: 32px;
+   height: 32px;
+   border:1px solid rgba(155, 152, 152, 0.054);
+    background-color: rgba(177, 173, 173, 0.36);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo-4
+{
+   width: 32px;
+   height: 32px;
+   border:1px solid rgba(155, 152, 152, 0.054);
+   background-color: rgba(177, 173, 173, 0.36);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* copyright-style */
+.copyright{
+
+    text-align: center;
 
 }
