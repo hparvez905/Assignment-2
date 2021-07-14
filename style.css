@@ -5,6 +5,29 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.top-container{
+    width: 100%;
+    height: 677px;
+  background-color: #2D25A0;
+  display: flex;
+
+
+}
+/* motion  */
+.top-container:hover .top-player{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+/* style top-container */
+
+/* top-left flex  */
+.top-left{
+    display: flex;
+    flex-direction:column;
+    margin-top: 207px;
+    margin-bottom: 240px;
+    margin-left: 156px;
+}
 /* Conmebol Copa America 2021 style  */
 .headline{
  
@@ -28,28 +51,7 @@ body{
     margin-top: -20px;
     
 }
-/* style top-container */
-.top-container{
-    width: 100%;
-    height: 677px;
-  background-color: #2D25A0;
-  display: flex;
 
-
-}
-/* motion  */
-.top-container:hover .top-player{
-    transform: scale(1.2);
-    transition: transform 1s ease-in-out;
-}
-/* top-left flex  */
-.top-left{
-    display: flex;
-    flex-direction:column;
-    margin-top: 207px;
-    margin-bottom: 240px;
-    margin-left: 156px;
-}
 /* player style  */
 .top-player{
     width: 556px;
@@ -99,6 +101,10 @@ p{
   
 } 
  /* down-container style  */
+ .down-container{
+    display: flex;
+
+}
 .down-left{
     margin-top: 6%;
     margin-left: 245px;
@@ -125,10 +131,7 @@ p{
     margin-top: 80px;
     
 }
-.down-container{
-    display: flex;
 
-}
 /* new-container style */
 .new-container{
     display: flex;
