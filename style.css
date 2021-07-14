@@ -61,32 +61,33 @@ body{
 .blog{
    
     display: grid;
-    grid-template-columns: .2fr 1fr 2fr;    
-    grid-gap: 10px;
-    grid-row-gap: 30px;
+    grid-template-columns: repeat(3,360px);    
+    grid-row-gap: 25px;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 230px;
+    margin-bottom: 150px;
+    
     
 }
+/* info style  */
 .player-info{
     width: 330px;
     height: 474px;
     border: 3px solid rgba(240, 237, 237, 0.418);
     margin-right: 40px;
-
-
-    
-    
+    box-shadow:-5px -5px 10px 10px  rgba(202, 201, 201, 0.377);   
 }
+/* pic relocate */
 .thumbnail{
     margin-top: 10px;
     margin-left: 15px;
 }
+/* heading style  */
 h2{
     margin-top: -1px;
     margin-left: 15px;
 }
-
+/* details style  */
  
 p{
     margin-top: -15px;
@@ -96,3 +97,31 @@ p{
     font-size: small;
   
 } 
+.down-left{
+    margin-top: 6%;
+    margin-left: 245px;
+}
+.highlights{
+ 
+    font-size: 48px;
+    line-height: 60px;
+    width: 466px;
+    height: 120px;
+    margin-top: -30px;
+}
+.live-2{
+   
+    width: 173px;
+    height: 44px;
+    background-color:#E02C6D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 80px;
+    
+}
+.down-container{
+    display: flex;
+
+}
