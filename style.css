@@ -216,3 +216,36 @@ p{
     text-align: center;
 
 }
+ /* media-queries */
+  /* mobile devices  */
+   @media only  screen and  (max-width: 688px)
+   {
+       .top-container{
+           width: 100%;
+           display: grid;
+           grid-template-columns: repeat(1,1fr);
+       }
+       .headline{
+           width: 280px;
+           height: 140px;
+           margin-left: -80px;
+           margin-top: -150px;
+           font-size: 36px;
+           line-height: 50px;
+           
+       }
+       .live{
+          margin-top: 2px;
+           margin-left: -80px;
+       }
+       .top-player{
+           margin-top: -200px;
+           margin-left: 60px;
+       }
+       .top-player img{
+           width: 330px;
+           height: 260px;
+         
+       }
+       
+   }
